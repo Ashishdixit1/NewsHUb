@@ -3,7 +3,7 @@ import NewsItem from "./NewsItem";
 
 const NewsBoard = ({category}) => {
     const [articles, setArticles] = useState([]);
-    const API_KEY = "cc2fc5a000cb4864970c9898067de639";
+    const API_KEY = "Enter your key";
 
     useEffect(() => {
         const url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${API_KEY}`;
